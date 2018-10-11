@@ -1,0 +1,77 @@
+#root {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote-box {
+    background: white;
+    max-width: 600px;
+    border-radius: 30px;
+}
+
+#quote {
+    padding: 50px 50px 0 50px;
+    text-align: center;
+}
+
+#text {
+    padding: 0 20px;
+    font-size: 32px;
+}
+
+#author {
+    text-align: end;
+    padding: 20px 50px 20px 0;
+    font-size: 18px;
+}
+
+.buttons-area {
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tweet-quote:hover {
+    opacity: 0.8;
+}
+
+#new-quote {
+    width: 100px;
+    color: white;
+    border: none;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+.yellow {
+    transition: color 3s ease;
+    color: yellow;
+}
+
+.red {
+    transition: color 3s ease;
+    color: red;
+}
+
+.blue {
+    transition: color 3s ease;
+    color: blue;
+}
+
+.bg-yellow {
+    transition: background-color 3s ease;
+    background-color: yellow;
+}
+.bg-red {
+    transition: background-color 3s ease;
+    background-color: red;
+}
+.bg-blue {
+    transition: background-color 3s ease;
+    background-color: blue;
+}   
