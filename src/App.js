@@ -21,8 +21,8 @@ class App extends Component {
           return response.json()
       }).then((quotesObj) => {
           const randomQuote = Math.floor(Math.random() * quotesObj.quotes.length)
-          const colors = ['yellow', 'blue', 'red']
-          const randomColor = Math.floor(Math.random() * 3)
+          const colors = ['clr1', 'clr2', 'clr3', 'clr4', 'clr5']
+          const randomColor = Math.floor(Math.random() * colors.length)
           const quote = quotesObj.quotes[randomQuote].quote
           const author = quotesObj.quotes[randomQuote].author
           this.setState({
